@@ -1,0 +1,100 @@
+
+header{
+    background-color: #F4F3EF;
+    margin-bottom: 0;
+
+}
+body {
+    min-width: 1420px ;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    height: 100%;
+
+}
+
+.title{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    clear: both;
+    background-color: #22211f;
+    color: #bfbebe;
+    display: block;
+    height: 20%;
+
+}
+
+.bottom{
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+
+#content{
+
+    float: left;
+    width: 40%;
+    margin-left: 2.5%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+#right{
+    float: right;
+    margin-top: 50px;
+    width: 12.5%;
+    margin-right: 15%;
+
+
+
+}
+
+
+
+#left{
+    float: left;
+    margin-left: 15%;
+    width: 12.5%;
+    margin-top: 50px;
+
+}
+
+#righta{
+    display: block;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px 5px 5px 5px;
+    border-right: 4px solid #D73646;
+    border-bottom: 4px solid #CDCDCD;
+    margin-bottom:10px;
+    background: #F4F3EF;
+}
+
+#lefta{
+    display: block;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px 5px 5px 5px;
+    border-left: 4px solid #D73646;
+    border-bottom: 4px solid #CDCDCD;
+    margin-bottom:10px;
+    background: #F4F3EF;
+}
+
+#asidecontent{
+
+    padding: 5px;
+
+}
+
+.nav-justified > .active > a, .nav-justified > .active > a:hover, .nav-justified > .active > a:focus {
+    background-color: #D73646;
+    color:#fff;
+    -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
